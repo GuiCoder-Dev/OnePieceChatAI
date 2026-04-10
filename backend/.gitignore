@@ -1,0 +1,13 @@
+# Compilados do Java
+/target/
+*.class
+
+.idea/
+*.iml
+
+*.log
+
+.DS_Store
+Thumbs.db
+
+.env
