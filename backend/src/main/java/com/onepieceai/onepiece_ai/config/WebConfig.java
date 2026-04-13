@@ -37,7 +37,7 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Bean
     @Description("Caso necessário, busca detalhes sobre os personagens de One Piece, como nomes, recompensas e Akuma no Mi")
-    public Function<CharacterRequest, String> onePieceTool(consumptionApiService service) {
+    public Function<CharacterRequest, String> onePieceCallApiTool(consumptionApiService service) {
         return service::OnePieceApi;
     }
 
