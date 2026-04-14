@@ -36,7 +36,8 @@ public class ConversationAiService {
                         GoogleGenAiChatOptions.builder()
                                 .model("gemini-2.5-flash")
                                 .temperature(0.3)
-                                .toolName("onePieceCallApiTool")
+                                .toolName("onePieceCallApiCharacter")
+                                .toolName("onePieceCallApiSagas")
                                 .maxOutputTokens(320)
                                 .build()
                 ));
