@@ -6,12 +6,12 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
-public class consumptionApiService {
+public class ConsumptionApiService {
 
     private final RestTemplate restTemplate;
 
 
-    public consumptionApiService(RestTemplate restTemplate) {
+    public ConsumptionApiService(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
 

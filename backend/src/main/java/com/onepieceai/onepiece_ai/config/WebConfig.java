@@ -1,7 +1,7 @@
 package com.onepieceai.onepiece_ai.config;
 
 
-import com.onepieceai.onepiece_ai.service.consumptionApiService;
+import com.onepieceai.onepiece_ai.service.ConsumptionApiService;
 import com.onepieceai.onepiece_ai.service.dtos.CharacterRequest;
 import com.onepieceai.onepiece_ai.service.dtos.SagaRequest;
 import org.springframework.context.annotation.Bean;
@@ -38,13 +38,13 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Bean
     @Description("Caso necessário, busca detalhes sobre os personagens de One Piece, como nomes, recompensas e Akuma no Mi")
-    public Function<CharacterRequest, String> onePieceCallApiCharacter(consumptionApiService service) {
+    public Function<CharacterRequest, String> onePieceCallApiCharacter(ConsumptionApiService service) {
         return service::OnePieceApiCharacter;
     }
 
     @Bean
     @Description("Caso necessário, busca detalhes sobre as sagas de One Piece, como nome das ilhas e sagas")
-    public Function<SagaRequest, String> onePieceCallApiSagas(consumptionApiService service) {
+    public Function<SagaRequest, String> onePieceCallApiSagas(ConsumptionApiService service) {
         return service::OnePieceApiSagas;
     }
 
