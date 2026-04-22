@@ -1,4 +1,4 @@
-# ⚓ One Piece AI Chat
+# ⚓ OnePieceAI
 
 Um chat temático de One Piece com inteligência artificial, dividido em três sessões interativas
 
