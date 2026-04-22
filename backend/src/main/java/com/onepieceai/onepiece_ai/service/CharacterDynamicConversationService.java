@@ -105,7 +105,7 @@ public class CharacterDynamicConversationService {
                         GoogleGenAiChatOptions.builder()
                                 .model("gemini-2.5-flash")
                                 .temperature(0.2)
-                                .maxOutputTokens(550)
+                                .maxOutputTokens(1000)
                                 .build()
                 ));
 
