@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap');
+
+:root {
+  --op-red: #e3000f;
+  --op-gold: #f1c40f;
+  --op-dark: #121820;
+  --op-navy: #1b263b;
+  --op-text: #e0e1dd;
+  --op-parchment: #f4e7d3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--op-dark);
+  color: var(--op-text);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
