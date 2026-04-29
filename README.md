@@ -27,6 +27,17 @@ Funciona como um guia especializado em One Piece. Quando necessário, consome a 
 ### 🏴‍☠️ Sessão 2 — Conversa com os Mugiwaras
 O usuário escolhe com qual membro da tripulação deseja conversar. Cada personagem possui um tom e estilo únicos definidos via system prompt:
 
+- Monkey D. Luffy 
+- Roronoa Zoro 
+- Nami
+- God Usopp
+- Vinsmoke Sanji
+- Tony Tony Chopper
+- Nico Robin
+- Franky
+- Brook
+- Jinbe
+
 ---
 
 ### 😈 Sessão 3 — Criador de Akuma no Mi
